@@ -273,15 +273,16 @@ button {
 .sport_text{
 	width: 100%;
 	float: left;
-	font-size: 40pt;
-	color: #ff7e1d;
+	font-size: 50pt;
+	color: white;
 }
 .lorem_text {
     width: 100%;
     float: left;
-    font-size: 14px;
+    font-size: 30px;
     color: #fcfbfe;
     margin-left: 0px;
+    line-height: 1.5;
 }
 .boynow_bt {
     width: 43%;
@@ -318,9 +319,6 @@ button {
 }
 .about_img {
     width: 100%;
-    float: left;
-    position: relative;
-    top: -30px;
 }
 .about_middle {
     width: 70%;
@@ -335,8 +333,8 @@ button {
 .about_lorem {
     width: 100%;
     float: left;
-    font-size: 14px;
-    color: #18191a;
+    font-size: 20px;
+    color: white;
     text-align: left;
     padding-right: 30px;
 }
@@ -359,13 +357,14 @@ button {
 }
 .our_section{
 	width: 100%;
+    margin-top: 16px;
 	float: left;
 }
 
 .our_text{
 	width: 100%;
 	float: left;
-	color: #1c6aec;
+	color: #1b883a;
     font-size: 20pt;
     padding-left: 20px;
 
@@ -441,7 +440,7 @@ button {
 .contact_main {
     width: 100%;
     float: left;
-    background-image: url(../images/contact-bg.png);
+    /* background-image: url(../images/contact-bg.png); */
     height: auto;
     padding-bottom: 70px;
     background-size: 100%;
@@ -452,7 +451,7 @@ button {
 	width: 100%;
 	float: left;
 	font-size: 40px;
-	color: #000;
+	color: white;
 	text-align: center;
 }
 .enput_section {
@@ -628,7 +627,6 @@ button.main_bt a:hover { color: #faf9f9; }
 
 
 
-
 .sidebar {
   height: 100%;
   width: 0;
@@ -636,7 +634,7 @@ button.main_bt a:hover { color: #faf9f9; }
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #1c6cee;
+  background-color: black;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -646,7 +644,7 @@ button.main_bt a:hover { color: #faf9f9; }
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #000000;
+  color: white;
   display: block;
   transition: 0.3s;
 }
